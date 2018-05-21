@@ -16,6 +16,21 @@ export default {
   height: 30vh;
   border: 2px dashed #ddd;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dropper:hover {
+  background-color: #eee;
+}
+
+input {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  opacity: 0;
 }
 </style>
 
